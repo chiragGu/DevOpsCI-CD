@@ -1,4 +1,6 @@
 language: python
 install:
   - pip install pytest
-script: python hello.py
+import: 
+  - python hello.py
+script: python min_max_test.py
