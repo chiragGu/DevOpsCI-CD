@@ -1,4 +1,4 @@
 language: python
 install:
   - pip install pytest
-script: python min_max_test.py
+script: pytest
