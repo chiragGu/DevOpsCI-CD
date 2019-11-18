@@ -18,3 +18,16 @@ def test_max():
     
     val = hello.max(values)
     assert val == 6
+
+def test_max():
+    values = (56,76,45,78)
+    
+    val = hello.max(values)
+    assert val == 78
+    
+def test_min():
+    values = (56,87,100,34,86)
+
+    val = hello.min(values)
+    assert val == 34
+  
