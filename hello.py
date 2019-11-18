@@ -24,4 +24,4 @@ def min(values):
             
     return _min
 
-print("Hi")
+#print("Hi")
