@@ -11,7 +11,7 @@ def test_min1():
     values = (2, 3, 1, 4, 6)
 
     val = hello.min(values)
-    assert val == 0
+    assert val == 1
     
 def test_max1():
     values = (1,2,3,4,5,6)
